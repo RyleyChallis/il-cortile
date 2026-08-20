@@ -1,0 +1,30 @@
+a.btn-primary {
+    background-color: var(--green);
+    color: var(--white);
+
+    max-width: fit-content;
+    white-space: nowrap;
+    padding: 18px 24px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+a.btn-primary:hover {
+    background-color: var(--green-two);
+    color: var(--white);
+}
+
+#sidebar .btn-primary {
+    position: absolute;
+    right: 22%;
+
+    display: flex;
+}
+
+#hero .btn-primary {
+    margin-bottom: 48px;
+}
+
+#favourites .btn-primary {
+    margin: 50px 0 75px 0;
+}

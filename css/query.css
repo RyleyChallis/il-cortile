@@ -1,0 +1,26 @@
+@media (max-width: 910px) {
+    .nav-links a {
+        display: none;
+    }
+    .openbtn {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    .desktop-only {
+        display: block;
+    }
+    .mobile-only {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
+    .mobile-only {
+        display: block;
+    }
+}

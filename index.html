@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Cortile | Italian Restaurant & Fine Dining</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/query.css">
+</head>
+<body>
+    <div id="sidebarOverlay" onclick="closeNav()"></div>
+    <header>
+        <div id="sidebar">
+            <button type="button" class="closebtn" onclick="closeNav()">&times;</button>
+            <div class="sidebar-links">
+                <ul>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="#reasons">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a class="btn-primary" href="">Book a Table</a></li>
+                </ul>
+                <button class="sidebar-logo" onclick="closeNav()">Il Cortile</button>
+            </div>
+        </div>
+        <nav>
+            <a class="nav-logo" href="">Il Cortile</a>
+            <ul class="nav-links">
+                <li><a href="">Menu</a></li>
+                <li><a href="#reasons">About</a></li>
+                <li><a class="nine-ten" href="">Contact Us</a></li>
+                <li><a class="btn-primary" href="">Book a Table</a></li>
+                <li>
+                    <button type="button" id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <h1 class="desktop-only">Quality Food Crafted to Make You Crave More</h1>
+                <h1 class="mobile-only">Authentic Food Made to Crave</h1>
+                <p class="desktop-only">Whether you’re looking for a quick lunch or fine dining, we’ve got everything you need to make your night unforgettable!</p>
+                <p class="mobile-only">From casual lunches to fine dining, we make every night unforgettable.</p>
+                <a class="btn-primary" href="">Reserve a Table</a>
+            </div>
+            <img src="assets/hero.jpg" alt="Hero image">
+        </section>
+
+        <section id="favourites">
+            <div class="container">
+                <h2>Fan Favourites</h2>
+                <div class="row-container">
+                    <div class="fav-item">
+                        <img src="assets/fav-one.jpg">
+                        <h3>Ravioli di Zucca</h3>
+                        <p>Freshly handmade pumpkin ravioli with brown butter sage sauce.</p>
+                    </div>
+                    <div class="fav-item">
+                        <img src="assets/fav-two.jpg">
+                        <h3>Margherita D.O.C.</h3>
+                        <p>Traditional wood-fired pizza topped with sweet San Marzano tomatoes.</p>
+                    </div>
+                    <div class="fav-item">
+                        <img src="assets/fav-three.jpg">
+                        <h3>Bruschetta Classica</h3>
+                        <p>Grilled rustic bread rubbed with garlic and ripe tomatoes.</p>
+                    </div>
+                </div>
+                <a class="btn-primary" href="">View our Dishes</a>
+            </div>
+        </section>
+
+        <section id="reasons">
+            <div class="container">
+                <h2>Why Work With Us?</h2>
+                <div class="row-container">
+                    <div class="reason-list">
+                        <div class="reason-item">
+                            <h3>Authentic Heritage</h3>
+                            <p>Traditional recipes passed down through generations, bringing a taste of Italy right to your table.</p>
+                        </div>
+                        <div class="reason-item">
+                            <h3>Local Ingredients</h3>
+                            <p>Our raw, organic ingredients are sourced daily from regional farmers to guarantee freshness and authenticity.</p>
+                        </div>
+                        <div class="reason-item">
+                            <h3>Curated Wine List</h3>
+                            <p>Every single vintage is hand-selected to pair beautifully with our dinner menu.</p>
+                        </div>
+                        <a class="btn-primary" href="">Explore the Menu</a>
+                    </div>
+                    <div class="reason-image">
+                        <img src="assets/whywork.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="articles">
+            <div class="container">
+                <h2>Articles You May Like...</h2>
+                <div class="row-container">
+                    <a class="article-item" href="">
+                        <img src="assets/article-one.jpg">
+                        <h3>Choosing the Perfect Tuscan Vintage</h3>
+                        <p>Discover the secrets to pairing the right regional Italian wines with your favourite summer dishes.</p>
+                    </a>
+                    <a class="article-item" href="article-two.html">
+                        <img src="assets/article-two.jpg">
+                        <h3>The Art of the Italian Breakfast</h3>
+                        <p>A deep dive into the rich history behind traditional morning pastries and espresso.</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews">
+            <div class="container">
+                <h2>Customer Testimonials</h2>
+                <div class="row-container">
+                    <div class="review-card">
+                        <h3>"Unmatched authenticity!"</h3>
+                        <p>Finding a wood-fired crust this perfect outside of Naples is rare. Exceptional wine pairings capped off the night.</p>
+                        <div class="author">
+                            <p>Matteo Rossi</p>
+                            <span>Verified Guest</span>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <h3>"An absolute masterpiece."</h3>
+                        <p>The truffle tagliatelle transported me straight to Florence. Seamless service and an unforgettable culinary journey.</p>
+                        <div class="author">
+                            <p>Eleanor Vance</p>
+                            <span>Food Critic</span>
+                        </div>
+                    </div>
+                    <div class="review-card">
+                        <h3>"Pure culinary poetry."</h3>
+                        <p>From the crisp polpo to the decadent homemade tiramisu, every single detail reflects true fine dining luxury.</p>
+                        <div class="author">
+                            <p>Dr. Julian Ward</p>
+                            <span>Regular Patron</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="celebration">
+            <div class="row-container">
+                <h2>Planning a Celebration?</h2>
+                <a class="btn-primary" href="">Book a VIP Table</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row-container">
+            <div class="footer-intro">
+                <h2>Il Cortile</h2>
+                <div class="footer-icons">
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <p>Navigation</p>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p>Connect With Us</p>
+                    <ul>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">TikTok</a></li>
+                        <li><a href="">Email Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p>Legal Links</p>
+                    <ul>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Cookies Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="data/script.js"></script>
+</body>
+</html>

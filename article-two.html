@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Art of the Italian Breakfast | Il Cortile</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/query.css">
+</head>
+<body>
+    <div id="sidebarOverlay" onclick="closeNav()"></div>
+    <header>
+        <div id="sidebar">
+            <button type="button" class="closebtn" onclick="closeNav()">&times;</button>
+            <div class="sidebar-links">
+                <ul>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="#reasons">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a class="btn-primary" href="">Book a Table</a></li>
+                </ul>
+                <button class="sidebar-logo" onclick="closeNav()">Il Cortile</button>
+            </div>
+        </div>
+        <nav>
+            <a class="nav-logo" href="">Il Cortile</a>
+            <ul class="nav-links">
+                <li><a href="">Menu</a></li>
+                <li><a href="#reasons">About</a></li>
+                <li><a class="nine-ten" href="">Contact Us</a></li>
+                <li><a class="btn-primary" href="">Book a Table</a></li>
+                <li>
+                    <button type="button" id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="articleOne">
+        <section id="hero">
+            <div class="container">
+                <h1>The Art of the Italian Breakfast</h1>
+                <p>A deep dive into the rich history behind traditional morning pastries, regional espresso rituals, and the timeless beauty of starting the day slowly.</p>
+                <a class="btn-primary" href="">Book a VIP Table</a>
+            </div>
+            <img src="assets/article-two.jpg" alt="Hero image">
+        </section>
+
+        <section class="article-body">
+            <div class="container">
+                <p>In Italy, morning is not a race against the clock; it is a finely tuned ritual centered around the local pasticceria. While the rest of the world rushes through oversized travel mugs and instant blends, the Italian breakfast—or prima colazione—demands a brief but deliberate pause. It is a sensory awakening built on two simple, unyielding pillars: a perfectly pulled shot of espresso and a warm, flaky pastry. </p>
+                <p>To understand this daily art form is to understand the rhythm of Italian life itself. It begins at the marble counter of a neighbourhood bar, where the hiss of the steam wand provides a rhythmic soundtrack to the morning chatter.</p>
+
+                <p>The centerpiece of this morning tradition is undoubtedly the cornetto. Often mistaken for its French cousin, the croissant, a true Italian cornetto is distinctively softer, sweeter, and subtly aromatic, frequently laced with hints of orange zest or vanilla bean. Paired with a classic cappuccino—ordered strictly before 11:00 AM—the pairing creates a flawless balance of bitter, rich espresso and delicate, buttery pastry layers.</p>
+                <p>Across different regions, this morning blueprint shifts beautifully. In Rome, you might find locals ordering a cream-filled maritozzo, while in Sicily, intense summer mornings are greeted with a refreshing almond granita served alongside a warm brioche bun.</p>
+            </div>
+            <div class="row-container">
+                <img src="assets/ref-one.jpg" alt="Croissant">
+                <img src="assets/ref-two.jpg" alt="Cappuccino">
+            </div>
+            <p class="final-text">Ultimately, the true magic of the Italian breakfast doesn't just lie within the quality of the wood-roasted coffee beans or the flakiness of the pastry cream. It lies entirely in the shared philosophy of a morning well spent. It is an invitation to slow down, savor a singular moment of sweetness, and set an intentional pace for the day ahead.</p>
+        </section>
+
+        <section id="related">
+            <div class="container">
+                <h2>Related Articles</h2>
+                <div class="row-container">
+                    <div class="related-item">
+                        <img src="assets/related-one.jpg">
+                        <h3>Sourcing the Soil: Our Zero-Mile Ingredient Philosophy</h3>
+                        <p>Chef Marco Rossi</p>
+                    </div>
+                    <div class="related-item">
+                        <img src="assets/related-two.avif">
+                        <h3>The Sweet Harvest: Sourcing Puglia’s Finest Summer Fruits</h3>
+                        <p>Giulia Bianchi</p>
+                    </div>
+                    <div class="related-item">
+                        <img src="assets/related-three.jpg">
+                        <h3>Shaved, Not Stirred: Tracking Down Autumn’s Earthy Truffles</h3>
+                        <p>Alessandro Forte</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row-container">
+            <div class="footer-intro">
+                <h2>Il Cortile</h2>
+                <div class="footer-icons">
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <p>Navigation</p>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p>Connect With Us</p>
+                    <ul>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">TikTok</a></li>
+                        <li><a href="">Email Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p>Legal Links</p>
+                    <ul>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Cookies Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
