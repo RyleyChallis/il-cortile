@@ -16,6 +16,11 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+::selection {
+    background-color: var(--green-two);
+    color: var(--white);
+}
+
 :root {
     --green: #64805A;
     --green-two: #576e4f;
