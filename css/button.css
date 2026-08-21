@@ -1,4 +1,8 @@
-a.btn-primary {
+a, button {
+    user-select: none;
+}
+
+a.btn-primary, button.btn-primary {
     background-color: var(--green);
     color: var(--white);
 
@@ -9,7 +13,7 @@ a.btn-primary {
     transition: background-color 0.3s ease;
 }
 
-a.btn-primary:hover {
+a.btn-primary:hover, button.btn-primary:hover {
     background-color: var(--green-two);
     color: var(--white);
 }
@@ -27,4 +31,11 @@ a.btn-primary:hover {
 
 #favourites .btn-primary {
     margin: 50px 0 75px 0;
+}
+
+#hero .add-to-cart-btn {
+    max-width: none;
+    width: 100%;
+    border: none;
+    cursor: pointer;
 }

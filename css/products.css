@@ -132,221 +132,63 @@ img {
     padding: 20vh 0 48px 0;
 }
 
-#hero .container {
-    gap: 24px;
+#hero .row-container {
     width: 100%;
+}
+
+#hero img {
+    max-width: 575px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#hero .details {
+    gap: 24px;
+}
+
+#hero #price {
+    font-size: var(--fs-p);
+    color: var(--header);
 }
 
 #hero p {
     max-width: clamp(40%, 60vw, 60%);
 }
 
-#hero img {
-    max-width: 93vw;
-    width: 100%;
-    border-radius: 8px;
+#related {
+    padding-bottom: 75px;
+}
+
+#related .row-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 48px;
+}
+
+#related .related-dish {
+    max-width: 444px;
+    transition: transform 0.3s ease;
+    user-select: auto;
+}
+
+.related-dish:hover {
+    transform: translateY(-10px);
+}
+
+.related-dish img {
     aspect-ratio: 2 / 1;
-    object-fit: cover;
-}
-
-#article #hero img {
-    object-position: center 75%;
-}
-
-#article #main-caption {
-    margin-bottom: 50px;
-}
-
-#final-text {
-    padding-bottom: 50px;
-}
-
-.fav-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
-
-    transition: transform 0.3s ease;
-    max-width: 480px;
-    gap: 12px;
-}
-
-.fav-item:hover {
-    transform: translateY(-10px);
-}
-
-.fav-item img {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
     border-radius: 8px;
-}
-
-#reasons {
-    min-height: 100vh;
-    padding-bottom: 75px;
-}
-
-#reasons .row-container {
-    align-items: flex-start;
-    position: relative;
-}
-
-#reasons .reason-list {
-    max-width: 50%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    gap: 48px;
-}
-
-#reasons .reason-image img {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  
-  max-width: 550px;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-#articles {
-    padding-bottom: 75px;
-}
-
-.article-item {
-    display: flex;
-    flex-direction: column;
-    max-width: 725px;
-    transition: transform 0.3s ease;
-}
-
-.article-item:hover {
-    transform: translateY(-10px);
-}
-
-#articles .article-item img {
-    max-width: 725px;
-    aspect-ratio: 20 / 11;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 12px;
-}
-
-.article-item:last-child img {
-    object-position: center 75%;
-}
-
-#reviews {
-    padding-bottom: 75px;
-}
-
-#reviews .review-card {
-    max-width: 480px;
-    max-height: 311px;
-    transition: transform 0.3s ease;
-
-    border: 1px solid #e6e6e6;
-    border-radius: 8px;
-    padding: 32px;
-
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
-
-.review-card:hover {
-    transform: translateY(-10px);
-}
-
-.review-card .author p {
-    font-weight: 600;
-}
-
-.review-card .author span {
-    font-size: var(--fs-p);
-    font-style: italic;
-    color: var(--text);
-}
-
-#celebration {
-    background-color: var(--header);
-}
-
-#celebration h2 {
-    color: var(--white);
-    font-weight: 700;
-}
-
-#article section {
-    background-color: var(--white);
-}
-
-.article-body .container {
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-}
-
-#article .article-body p {
-    max-width: 70%;
-    margin: 0 auto;
-}
-
-.final-text {
-    padding: 0 0 50px 0;
-}
-
-.article-body .row-container {
-    padding: 50px 0;
-}
-
-.article-body img {
-    max-width: 49%;
-    border-radius: 8px;
-    aspect-ratio: 2 / 1;
-    object-fit: cover;
-}
-
-section#related {
-    background-color: var(--grey);
-    padding-bottom: 75px;
-}
-
-.related-item {
-    max-width: 490px;
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.3s ease;
-}
-
-.related-item:hover {
-    transform: translateY(-10px);
-}
-
-#related img {
     max-width: 100%;
-    aspect-ratio: 3 / 2;
     object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
-.related-item h3 {
-    max-width: 80%;
-}
-
-#related .related-item:nth-child(2) img {
-    object-position: center 65%;
-}
-
-#related .related-item:nth-child(3) img {
-    object-position: center 60%;
+.related-dish #price {
+    font-size: var(--fs-p);
+    font-weight: 600;
+    color: var(--green);
 }
 
 footer {
