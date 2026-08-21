@@ -19,6 +19,23 @@
     #reasons .second-btn {
         display: block;
     }
+    footer .row-container {
+        flex-direction: column;
+    }
+    footer .footer-intro {
+        padding: 50px 0;
+    }
+    .footer-links {
+        padding-bottom: 20px;
+        gap: 96px;
+    }
+    .footer-intro .footer-icons {
+        display: none;
+    }
+    .footer-icons.last {
+        display: flex;
+        padding-bottom: 50px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -28,7 +45,8 @@
     .fav-item:last-child {
         grid-column: 1 / -1;
         justify-self: center;
-        width: 100%;
+        width: calc(50% - 12px);
+        max-width: none;
         margin: 0 auto;
     }
     #favourites .btn-primary {
@@ -84,5 +102,43 @@
     #favourites .row-container {
         display: flex;
         flex-direction: column;
+        max-width: 90%;
+    }
+    .fav-item {
+        max-width: none;
+        width: 100%;
+    }
+    .fav-item:last-child {
+        width: 100%;
+    }
+}
+
+@media (max-width: 592px) {
+    #celebration {
+        padding-bottom: 75px;
+    }
+    #celebration .row-container {
+        flex-direction: column;
+    }
+    #celebration .btn-primary {
+        width: 100%;
+        max-width: none;
+        text-align: center;
+    }
+    .footer-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 24px;
+    }
+    .footer-links .footer-col:last-child {
+        grid-column: 1 / -1;
+        margin: 0 auto;
+        justify-self: center;
+    }
+    .fiveninetwo {
+        display: block;
+    }
+    .footer-col:last-child ul li:nth-child(-n+3) {
+        display: none;
     }
 }
