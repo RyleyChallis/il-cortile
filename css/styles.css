@@ -165,6 +165,14 @@ img {
     padding-bottom: 50px;
 }
 
+#favourites .row-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    gap: 48px;
+    width: 100%;
+}
+
 .fav-item {
     display: flex;
     flex-direction: column;
@@ -172,6 +180,7 @@ img {
     text-align: left;
 
     transition: transform 0.3s ease;
+    min-width: 0;
     max-width: 480px;
     gap: 12px;
 }
@@ -199,7 +208,7 @@ img {
 }
 
 #reasons .reason-list {
-    max-width: 50%;
+    max-width: 45%;
 
     display: flex;
     flex-direction: column;
@@ -208,11 +217,6 @@ img {
 }
 
 #reasons .reason-image img {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  
   max-width: 550px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
@@ -223,10 +227,17 @@ img {
     padding-bottom: 75px;
 }
 
+#articles .row-container {
+    gap: 48px;
+    align-items: flex-start;
+}
+
 .article-item {
     display: flex;
     flex-direction: column;
+    min-width: 0;
     max-width: 725px;
+    margin: 0 auto;
     transition: transform 0.3s ease;
 }
 
@@ -250,9 +261,14 @@ img {
     padding-bottom: 75px;
 }
 
+#reviews .row-container {
+    gap: 48px;
+    align-items: stretch;
+}
+
 #reviews .review-card {
     max-width: 480px;
-    max-height: 311px;
+    max-height: 431px;
     transition: transform 0.3s ease;
 
     border: 1px solid #e6e6e6;
@@ -261,6 +277,7 @@ img {
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 24px;
 }
 
