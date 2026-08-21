@@ -110,12 +110,12 @@
             <div class="container">
                 <h2>Articles You May Like...</h2>
                 <div class="row-container">
-                    <a class="article-item" href="">
+                    <a class="article-item" data-id="1" href="#">
                         <img src="assets/article-one.jpg">
                         <h3>Choosing the Perfect Tuscan Vintage</h3>
                         <p>Discover the secrets to pairing the right regional Italian wines with your favourite summer dishes.</p>
                     </a>
-                    <a class="article-item" href="article-two.html">
+                    <a class="article-item" data-id="2" href="#">
                         <img src="assets/article-two.jpg">
                         <h3>The Art of the Italian Breakfast</h3>
                         <p>A deep dive into the rich history behind traditional morning pastries and espresso.</p>
@@ -211,6 +211,18 @@
         </div>
     </footer>
     
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        const articleLinks = document.querySelectorAll('.article-item');
+
+        articleLinks.forEach(link => {
+            const id = link.getAttribute('data-id');
+            if (id) {
+            link.href = `article-two.html?id=${id}`;
+            }
+        });
+    });
+    </script>
     <script src="data/script.js"></script>
 </body>
 </html>

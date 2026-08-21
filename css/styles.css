@@ -157,6 +157,10 @@ img {
     margin-bottom: 50px;
 }
 
+#article img[src="assets/ref-three.jpg"] {
+    object-position: center 65%;
+}
+
 #final-text {
     padding-bottom: 50px;
 }
