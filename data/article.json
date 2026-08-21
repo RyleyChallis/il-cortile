@@ -16,13 +16,13 @@
         "id": "2",
         "mainTitle": "The Art of the Italian Breakfast",
         "mainCaption": "A deep dive into the rich history behind traditional morning pastries, regional espresso rituals, and the timeless beauty of starting the day slowly.",
-        "heroImage": "/assets/article-two.jpg",
+        "heroImage": "assets/article-two.jpg",
         "textOne": "In Italy, morning is not a race against the clock; it is a finely tuned ritual centered around the local pasticceria. While the rest of the world rushes through oversized travel mugs and instant blends, the Italian breakfast—or prima colazione—demands a brief but deliberate pause. It is a sensory awakening built on two simple, unyielding pillars: a perfectly pulled shot of espresso and a warm, flaky pastry. ",
         "textTwo": "To understand this daily art form is to understand the rhythm of Italian life itself. It begins at the marble counter of a neighbourhood bar, where the hiss of the steam wand provides a rhythmic soundtrack to the morning chatter.",
         "textThree": "The centerpiece of this morning tradition is undoubtedly the cornetto. Often mistaken for its French cousin, the croissant, a true Italian cornetto is distinctively softer, sweeter, and subtly aromatic, frequently laced with hints of orange zest or vanilla bean. Paired with a classic cappuccino—ordered strictly before 11:00 AM—the pairing creates a flawless balance of bitter, rich espresso and delicate, buttery pastry layers.",
         "textFour": "Across different regions, this morning blueprint shifts beautifully. In Rome, you might find locals ordering a cream-filled maritozzo, while in Sicily, intense summer mornings are greeted with a refreshing almond granita served alongside a warm brioche bun.",
-        "imageOne": "/assets/ref-one.jpg",
-        "imageTwo": "/assets/ref-two.jpg",
+        "imageOne": "assets/ref-one.jpg",
+        "imageTwo": "assets/ref-two.jpg",
         "finalText": "Ultimately, the true magic of the Italian breakfast doesn't just lie within the quality of the wood-roasted coffee beans or the flakiness of the pastry cream. It lies entirely in the shared philosophy of a morning well spent. It is an invitation to slow down, savor a singular moment of sweetness, and set an intentional pace for the day ahead."
     }
 ]
