@@ -135,10 +135,10 @@
         margin: 0 auto;
         justify-self: center;
     }
-    .fiveninetwo {
+    .link-short {
         display: block;
     }
-    .footer-col:last-child ul li:nth-child(-n+3) {
+    .link-long {
         display: none;
     }
 }
