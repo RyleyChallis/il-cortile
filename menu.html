@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Cortile | Italian Restaurant & Fine Dining</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/query.css">
+</head>
+<body>
+    <div id="sidebarOverlay" onclick="closeNav()"></div>
+    <header>
+        <div id="sidebar">
+            <button type="button" class="closebtn" onclick="closeNav()">&times;</button>
+            <div class="sidebar-links">
+                <ul>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a class="btn-primary" href="">Book a Table</a></li>
+                </ul>
+                <button class="sidebar-logo" onclick="closeNav()">Il Cortile</button>
+            </div>
+        </div>
+        <nav id="menu-page-nav">
+            <a class="nav-logo" href="">Il Cortile</a>
+            <ul class="nav-links">
+                <li><a href="">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="nine-ten" href="">Contact Us</a></li>
+                <li><a class="btn-primary" href="">Book a Table</a></li>
+                <li>
+                    <button type="button" id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="menu-page">
+        <section id="hero">
+            <div class="container">
+                <h1>La Dispensa Boutique</h1>
+                <p>Bring the authentic flavours of our kitchen into your home with our hand-selected collection of cold-pressed oils and regional Italian imports.</p>
+                <a class="btn-primary" href="">Order Your Favourites</a>
+            </div>
+        </section>
+
+        <section id="menu">
+            <div class="container">
+                <h2>Il Menu</h2>
+                <div class="menu-block">
+                    <h3>Antipasti</h3>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Carpaccio di Manzo</h4>
+                            <p>Thinly sliced beef tenderloin, wild rocket, aged parmesan, black truffle oil</p>
+                        </div>
+                        <span class="price">£16.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Burrata Pugliese</h4>
+                            <p>Creamy burrata, heirloom tomatoes, basil oil, aged balsamic</p>
+                        </div>
+                        <span class="price">£14.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Capesante Scottate</h4>
+                            <p>Pan-seared scallops, cauliflower purée, crispy pancetta</p>
+                        </div>
+                        <span class="price">£18.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Vitello Tonnato</h4>
+                            <p>Slow-roasted veal, tuna and caper emulsion, fried capers</p>
+                        </div>
+                        <span class="price">£15.00</span>
+                    </div>
+                </div>
+
+                <div class="menu-block">
+                    <h3>Primi</h3>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Tagliolini al Tartufo Nero</h4>
+                            <p>Hand-cut tagliolini, black winter truffle, brown butter, parmesan</p>
+                        </div>
+                        <span class="price">£24.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Risotto al Barolo</h4>
+                            <p>Carnaroli rice, Barolo wine, aged taleggio, crisp shallots</p>
+                        </div>
+                        <span class="price">£22.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Ravioli di Zucca</h4>
+                            <p>Roasted pumpkin ravioli, sage butter, toasted hazelnuts</p>
+                        </div>
+                        <span class="price">£20.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Tagliatelle al Ragù Bianco</h4>
+                            <p>Slow-braised veal and pork ragù, white wine, pecorino</p>
+                        </div>
+                        <span class="price">£21.00</span>
+                    </div>
+                </div>
+
+                <div class="menu-block">
+                    <h3>Secondi</h3>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Filetto di Manzo</h4>
+                            <p>Grilled beef fillet, red wine jus, roasted bone marrow</p>
+                        </div>
+                        <span class="price">£38.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Branzino al Sale</h4>
+                            <p>Salt-baked sea bass, lemon and fennel, extra virgin olive oil</p>
+                        </div>
+                        <span class="price">£32.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Ossobuco alla Milanese</h4>
+                            <p>Braised veal shank, saffron risotto, gremolata</p>
+                        </div>
+                        <span class="price">£34.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Petto d'Anatra</h4>
+                            <p>Pan-roasted duck breast, cherry and Marsala reduction, celeriac purée</p>
+                        </div>
+                        <span class="price">£30.00</span>
+                    </div>
+                </div>
+
+                <div class="menu-block">
+                    <h3>Dolci</h3>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Tiramisù della Casa</h4>
+                            <p>Espresso-soaked savoiardi, mascarpone cream, cocoa</p>
+                        </div>
+                        <span class="price">£10.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Panna Cotta ai Frutti di Bosco</h4>
+                            <p>Vanilla bean panna cotta, mixed berry compote</p>
+                        </div>
+                        <span class="price">£9.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Torta di Cioccolato</h4>
+                            <p>Warm dark chocolate fondant, hazelnut gelato</p>
+                        </div>
+                        <span class="price">£11.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-text">
+                            <h4>Cannoli Siciliani</h4>
+                            <p>Crisp pastry shells, sweet ricotta, candied orange, pistachio</p>
+                        </div>
+                        <span class="price">£9.50</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="standard">
+            <div class="container">
+                <h2>The Il Cortile Standard</h2>
+                <div class="row-container">
+                    <div class="standard-item">
+                        <i class="fa-solid fa-globe"></i>
+                        <h3>Hand-Selected Sourcing</h3>
+                        <p>We partner exclusively with independent, family-owned Tuscan groves and historic Modena estates to bring pure, single-variety ingredients straight to your plate.</p>
+                    </div>
+                    <div class="standard-item">
+                        <i class="fa-regular fa-clock"></i>
+                        <h3>Time-Honoured Methods</h3>
+                        <p>From our bronze-die extruded heirloom wheat pasta to our 12-year barrel-aged balsamic vinegars, we honor centuries-old Italian culinary traditions.</p>
+                    </div>
+                    <div class="standard-item">
+                        <i class="fa-solid fa-lock"></i>
+                        <h3>Zero Shortcuts</h3>
+                        <p>Our sauces are slow-simmered for hours using sweet San Marzano tomatoes and fresh hand-torn basil—no preservatives, no artificial additives, just pure flavor.</p>
+                    </div>
+                    <div class="standard-item">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <h3>The Courtyard Experience</h3>
+                        <p>Inspired by the relaxed rhythm of traditional Italian dining, we invite you to slow down, pour a glass of vintage wine, and savor every single bite.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row-container">
+            <div class="footer-intro">
+                <h2>Il Cortile</h2>
+            </div>
+            <div class="footer-links">
+                <div class="footer-col">
+                    <p>Navigation</p>
+                    <ul>
+                        <li><a href="index.html#reasons">About</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p>Connect</p>
+                    <ul>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">TikTok</a></li>
+                        <li><a href="">Email Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <p>Legal Links</p>
+                    <ul>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Cookies Policy</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
