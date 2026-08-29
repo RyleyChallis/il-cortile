@@ -414,9 +414,9 @@ img {
 }
 
 /* END OF ERROR PAGE (404.HTML) CSS */
-/* START OF FOOTER CSS */
 
 footer {
+    background-color: var(--white);
     height: 354px;
     padding: 25px 0;
 }
@@ -426,6 +426,7 @@ footer .row-container {
     padding-top: 5px;
     height: 100%;
     max-width: 80%;
+    align-items: center;
 }
 
 .footer-intro {
@@ -442,21 +443,6 @@ footer h2 {
     text-transform: uppercase;
 }
 
-.footer-icons {
-    display: flex;
-    gap: 12px;
-}
-
-footer i {
-    font-size: var(--fs-h3);
-    color: var(--text);
-    transition: color 0.3s ease;
-}
-
-footer i:hover {
-    color: var(--green);
-}
-
 .footer-links {
     display: flex;
     align-items: flex-start;
@@ -470,6 +456,7 @@ footer i:hover {
 }
 
 .footer-links ul {
+    padding: 0;
     list-style: none;
     display: flex;
     flex-direction: column;

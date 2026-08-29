@@ -161,6 +161,24 @@ img {
     max-width: clamp(40%, 60vw, 60%);
 }
 
+#about-page #hero {
+    .row-container {
+        align-items: flex-start;
+    }
+    img {
+        aspect-ratio: 4 / 5;
+        max-width: 450px;
+    }
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+    }
+    .hero-text p {
+        max-width: 80%;
+    }
+}
+
 /* END OF HERO SECTION STYLES */
 
 #related {
@@ -198,9 +216,69 @@ img {
     color: var(--green);
 }
 
+/* START OF ABOUT.HTML CONTACT FORM */
+
+#about-page {
+    #hero {
+        padding-bottom: 0;
+    }
+    section {
+        background-color: var(--white);
+        padding-bottom: 75px;
+
+        #form {
+            max-width: 60%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .form-top {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                gap: 6px;
+
+                .input-group {
+                    width: 100%;
+                }
+            }
+            .input-group {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+
+                input {
+                    padding: 16px;
+                    border-radius: 8px;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                }
+
+                textarea {
+                    padding: 16px;
+                    border-radius: 8px;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    min-height: 250px;
+                }
+
+                input:active {
+                    border-color: var(--green);
+                }
+            }
+
+            ::placeholder {
+                font-size: var(--fs-p);
+                font-family: 'inter', sans-serif;
+                color: var(--text);
+            }
+        }
+    }
+}
+
 /* START OF FOOTER CSS */
 
 footer {
+    background-color: var(--white);
     height: 354px;
     padding: 25px 0;
 }
@@ -210,6 +288,7 @@ footer .row-container {
     padding-top: 5px;
     height: 100%;
     max-width: 80%;
+    align-items: center;
 }
 
 .footer-intro {
@@ -269,6 +348,10 @@ footer i:hover {
 
 .footer-links a:hover {
     color: var(--header);
+}
+
+.link-short {
+    display: none;
 }
 
 /* END OF FOOTER CSS */
