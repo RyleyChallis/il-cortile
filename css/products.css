@@ -261,8 +261,8 @@ img {
                     min-height: 250px;
                 }
 
-                input:active {
-                    border-color: var(--green);
+                input:focus, textarea:focus {
+                    outline: 1px solid #64805A;
                 }
             }
 
